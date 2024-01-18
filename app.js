@@ -1,21 +1,3 @@
-// console.log("Hello");
-
-// let cookies = 0;
-// const cookiebtn = document.getElementById("cookiebtn");
-// cookiebtn.addEventListener("click", function () {
-//   cookies++;
-// });
-// console.log(cookies);
-
-// // Start cookies count at zero
-
-// setInterval(function () {
-//   cookies = cookies + 1;
-//   console.log("🍪", cookies);
-// }, 1000);
-
-// document.getElementById(numberOfCookies).textContent = cookies;
-
 console.log("Hello");
 
 let cookies = 0;
