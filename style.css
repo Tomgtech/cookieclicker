@@ -5,6 +5,12 @@ html {
   font-family: sans-serif;
 }
 
+#text {
+  font-size: xx-large;
+  text-shadow: 2px 2px #959595;
+  font-weight: bold;
+}
+
 .center {
   display: block;
   margin-left: auto;
@@ -28,10 +34,4 @@ html {
   color: #fff;
   position: absolute;
   bottom: 0;
-}
-
-#text {
-  font-size: xx-large;
-  text-shadow: 2px 2px #959595;
-  font-weight: bold;
 }
