@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 html {
   text-align: center;
   background-color: #222;
@@ -11,11 +16,19 @@ html {
   font-weight: bold;
 }
 
-.center {
+nav {
+  background-image: url(https://littleredkitchenbakeshop.com/cdn/shop/files/Cookies_d5fbd508-dc76-40db-8f58-a7ea6b33bb7c.png?v=1615213834);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 70px;
+}
+
+.centre {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 500%;
+  width: 60vw;
 }
 
 #cookiebtn {
@@ -26,6 +39,10 @@ html {
   border-radius: 10px;
 }
 
+#cookiebtn:active {
+  background-color: burlywood;
+}
+
 #resetbtn {
   height: 100px;
   width: 100px;
@@ -34,4 +51,16 @@ html {
   color: #fff;
   position: absolute;
   bottom: 0;
+}
+
+#resetbtn:active {
+  background-color: burlywood;
+}
+
+footer {
+  background-image: url(https://littleredkitchenbakeshop.com/cdn/shop/files/Cookies_d5fbd508-dc76-40db-8f58-a7ea6b33bb7c.png?v=1615213834);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 70px;
 }
