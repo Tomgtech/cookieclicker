@@ -23,13 +23,14 @@ nav {
   position: relative;
   height: 70px;
   display: flex;
+  flex-direction: row;
 }
 
 .centre {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 60vw;
+  width: 40vw;
 }
 
 #cookiebtn {
@@ -38,6 +39,7 @@ nav {
   background-color: #a9a9a9;
   color: #fff;
   border-radius: 10px;
+  margin-bottom: 2%;
 }
 
 #cookiebtn:active {
@@ -52,6 +54,8 @@ nav {
   color: #fff;
   position: relative;
   bottom: auto;
+  margin-bottom: 3%;
+  margin-top: 2%;
 }
 
 #resetbtn:active {
